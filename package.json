@@ -1,0 +1,38 @@
+{
+  "name": "express-template",
+  "version": "1.0.0",
+  "description": "Basic Express Template for a quick start up",
+  "main": "src/server/index.js",
+  "scripts": {
+    "start": "cd src/server && nodemon --inspect --exec babel-node --presets env index.js",
+    "test": "cd src/server && nodemon --inspect --exec babel-node --presets env test.js"
+  },
+  "keywords": [
+    "node.js",
+    "express.js",
+    "user authentication",
+    "endpoint authentication"
+  ],
+  "author": "Benjamin Shepherd",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt": "^3.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "download-file": "^0.1.5",
+    "escape-string-regexp": "^1.0.5",
+    "express": "^4.16.3",
+    "express-fileupload": "^1.0.0",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.17.5",
+    "uniqid": "^5.0.3",
+    "validator": "^10.8.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
